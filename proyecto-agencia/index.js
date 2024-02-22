@@ -4,6 +4,11 @@ document.getElementById("perfilForm").addEventListener("submit", function(event)
     alert("Perfil creado correctamente");
 });
 
+document.getElementById("pqrForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Caso registrado correctamente");
+});
+
 // Funcionalidad: Mostrar/ocultar lista de hoteles al hacer clic en un botón
 var listaHotelesVisible = false;
 document.getElementById("mostrarHotelesBtn").addEventListener("click", function() {
