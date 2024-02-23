@@ -67,6 +67,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+#sugerencias {
+    margin-bottom: 100px; /* Agrega margen inferior para dejar espacio para el footer */
+}
+
 footer {
     background-color: var(--md-primary-dark);
     color: var(--md-text-secondary);
