@@ -15,3 +15,10 @@ document.getElementById("mostrarHotelesBtn").addEventListener("click", function(
     }
     listaHotelesVisible = !listaHotelesVisible;
 });
+
+// Funcionalidad: Mostrar un mensaje de éxito al enviar el formulario de sugerencias
+document.getElementById("sugerenciasForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita el envío por defecto del formulario
+    document.getElementById("mensajeEnviado").style.display = "block"; // Muestra el mensaje de éxito
+    document.getElementById("sugerenciasForm").reset(); // Limpia el formulario
+});
