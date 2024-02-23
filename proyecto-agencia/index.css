@@ -10,7 +10,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://images.unsplash.com/photo-1487730116645-74489c95b41b'); /* Ruta de la imagen de fondo */
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1876733401/display_1500/stock-photo-a-hot-air-balloon-flies-over-the-namibian-desert-1876733401.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
