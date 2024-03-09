@@ -1,1 +1,9 @@
- 
+/* Estilos para la sección Soporte al Viajero */
+#soporte {
+    margin-bottom: 20px;
+}
+
+#soporte p {
+    color: var(--md-text-primary);
+    margin-bottom: 10px;
+} 
