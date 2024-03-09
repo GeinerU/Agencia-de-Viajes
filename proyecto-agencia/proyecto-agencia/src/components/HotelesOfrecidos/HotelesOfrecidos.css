@@ -1,1 +1,23 @@
- 
+/* Estilos para la sección Hoteles Ofrecidos */
+#hoteles {
+    margin-bottom: 20px;
+}
+
+#hoteles ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hoteles ul li {
+    color: var(--md-text-primary);
+    margin-bottom: 5px;
+}
+
+#mostrarHotelesBtn {
+    padding: 5px 10px;
+    background-color: var(--md-secondary);
+    color: var(--md-text-secondary);
+    border: none;
+    cursor: pointer;
+}
