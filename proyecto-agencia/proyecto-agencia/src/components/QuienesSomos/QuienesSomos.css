@@ -1,1 +1,8 @@
- 
+/* Estilos para la sección Quienes Somos */
+#quienesSomos {
+    margin-bottom: 20px;
+}
+
+#quienesSomos h2 {
+    color: var(--md-primary);
+}
