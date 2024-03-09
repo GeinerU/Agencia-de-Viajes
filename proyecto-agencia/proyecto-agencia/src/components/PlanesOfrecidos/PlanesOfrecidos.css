@@ -1,1 +1,15 @@
- 
+ /* Estilos para la sección Planes Ofrecidos */
+#planes {
+    margin-bottom: 20px;
+}
+
+#planes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#planes ul li {
+    color: var(--md-text-primary);
+    margin-bottom: 5px;
+}
