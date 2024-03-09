@@ -1,1 +1,23 @@
- 
+ /* Estilos para la barra de navegación */
+nav {
+    background-color: var(--md-primary);
+    color: var(--md-text-secondary);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: var(--md-text-secondary);
+    text-decoration: none;
+}
